@@ -29,7 +29,7 @@
 header{
     /* background-color: #ffb885; */
      background-color: #FFF8F3;
-    background:url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
+    background:url("./images/developer.png"), url("./images/header_bg.png"), #FFF8F3;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     padding-top: 50px;
@@ -88,7 +88,7 @@ nav .menu-bar a{
 
 /* About  Styles  */
 #about{
-    padding: 130px 230px;
+    padding: 130px 130px;
 }
 #about .about-container{
     background-color: #FFF8F3;
@@ -119,4 +119,52 @@ nav .menu-bar a{
     font-size: 20px;
     font-weight: bold;
     line-height: 30px;
+}
+
+#skills{
+    padding: 130px 130px;
+}
+#skills .skill-container{
+    /* width: 71%; */
+    /* max-width: 1140px; */
+    margin: 0 auto;
+}
+#skills .skill-container .skill-heading h2,p{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    width: 71%;
+    max-width: 1140px;
+}
+#skills .skill-container .skill-heading h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#skills .skill-container .skill-heading p{
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: 18px;
+}
+#skills .skill-container .skill-cards{
+    display: flex;
+    gap: 24px;
+
+}
+.card-info{
+    padding: 20px;
+    box-shadow: 5px 0px 15px rgb(161, 158, 158);
+    border-radius: 10px;
+}
+.card-info h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.card-info p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
 }
